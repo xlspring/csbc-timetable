@@ -1,5 +1,6 @@
 name: Generate timetable
 
+
 on: workflow_dispatch
 
 jobs:
@@ -21,3 +22,5 @@ jobs:
         with:
           tag_name: v1f
           files: sched.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
