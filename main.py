@@ -1,7 +1,5 @@
-import pandas as pd
 import xlrd
 import requests
-import re
 import json
 
 sheet_id = "1qKt-qplbttz9mG79q_v7w6FS3ae50o9_"
